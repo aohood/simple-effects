@@ -1,21 +1,19 @@
 
 $(document).ready(function() {
+  $("button#green").click(function() {
+      $("body").removeClass();
+      $("body").addClass("green-background");
+    });
 
-$("h1").click(function(){
-  alert("This is a headre");
-});
+    $("button#yellow").click(function() {
+      $("body").removeClass();
+      $("body").addClass("yellow-background");
+    });
 
-$("img").click(function() {
-  alert ("This is an image");
-});
-
-$("p").click(function(){
-  alert("This is a paragraph");
-});
-
-
-
-
+    $("button#red").click(function() {
+      $("body").removeClass();
+      $("body").addClass("red-background");
+    });
 
 
 

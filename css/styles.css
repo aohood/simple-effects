@@ -1,3 +1,18 @@
-#show-wal{
-  display:none;
+#walrus-showing{
+
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color :#0088cc;
+}
+
+.green-background{
+  background-color: green;
+}
+.yellow-background{
+  background-color: yellow;
+}
+.red-background{
+  background-color: red;
 }
